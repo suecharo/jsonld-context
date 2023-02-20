@@ -1,18 +1,21 @@
 {
+  "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml",
   "@version": 1.1,
-  "File": {
-    "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#File",
-    "@context": {
-      "name": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#File#name"
-    }
-  },
-  "Dataset": {
-    "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#Dataset",
-    "@context": {
-      "name": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#Dataset#name",
-      "hasPart": {
-        "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#Dataset#hasPart",
-        "@type": "@id"
+  "@context": {
+    "File": {
+      "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#File",
+      "@context": {
+        "name": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#File#name"
+      }
+    },
+    "Dataset": {
+      "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#Dataset",
+      "@context": {
+        "name": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#Dataset#name",
+        "hasPart": {
+          "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.yml#Dataset#hasPart",
+          "@type": "@id"
+        }
       }
     }
   }
