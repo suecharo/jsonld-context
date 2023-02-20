@@ -3,7 +3,8 @@
   "File": {
     "@id": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/ext.yml#File",
     "@context": {
-      "name": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/ext.yml#File#name"
+      "name": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/ext.yml#File#name",
+      "description": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/ext.yml#File#description"
     }
   }
 }
