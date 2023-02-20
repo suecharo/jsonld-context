@@ -3,17 +3,20 @@
     {
       "@id": "https://example.com/path/to/base_file",
       "@type": "File",
+      "@context": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.jsonld",
       "name": "base file"
     },
     {
       "@id": "https://example.com/path/to/ext_file",
       "@type": "File",
+      "@context": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/ext.jsonld",
       "name": "ext file",
       "description": "ext file description"
     },
     {
       "@id": "https://example.com/dataset",
       "@type": "Dataset",
+      "@context": "https://raw.githubusercontent.com/suecharo/jsonld-context/main/base.jsonld",
       "name": "dataset",
       "hasPart": [
         {
