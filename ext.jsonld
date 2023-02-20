@@ -1,0 +1,9 @@
+{
+  "@version": "1.1",
+  "File": {
+    "@id": "https://example.com/path/to/ext/file/schema",
+    "@context": {
+      "name": "https://example.com/path/to/ext/file/schema/name"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@graph": [
+    {
+      "@id": "https://example.com/path/to/base_file",
+      "@type": "File",
+      "name": "base file"
+    },
+    {
+      "@id": "https://example.com/path/to/ext_file",
+      "@type": "File",
+      "name": "ext file",
+      "description": "ext file description"
+    },
+    {
+      "@id": "https://example.com/dataset",
+      "@type": "Dataset",
+      "name": "dataset",
+      "hasPart": [
+        {
+          "@id": "https://example.com/path/to/base_file"
+        },
+        {
+          "@id": "https://example.com/path/to/ext_file"
+        }
+      ]
+    }
+  ]
+}

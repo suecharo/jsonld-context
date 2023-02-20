@@ -1,0 +1,19 @@
+{
+  "@version": "1.1",
+  "File": {
+    "@id": "https://example.com/path/to/base/file/schema",
+    "@context": {
+      "name": "https://example.com/path/to/base/file/schema/name"
+    }
+  },
+  "Dataset": {
+    "@id": "https://example.com/path/to/base/dataset/schema",
+    "@context": {
+      "name": "https://example.com/path/to/base/dataset/schema/name",
+      "hasPart": {
+        "@id": "https://example.com/path/to/base/dataset/schema/hasPart",
+        "@type": "@id"
+      }
+    }
+  }
+}
